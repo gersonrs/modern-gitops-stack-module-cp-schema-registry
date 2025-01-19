@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/GersonRS/modern-gitops-stack-module-cp-schema-registry/compare/v1.2.0...v1.3.0) (2025-01-19)
+
+
+### 🚀 New Features
+
+* update project ([8c487ed](https://github.com/GersonRS/modern-gitops-stack-module-cp-schema-registry/commit/8c487ed1699d8450360807a56271725dbed183b3))
+
 ## [1.2.0](https://github.com/GersonRS/modern-gitops-stack-module-cp-schema-registry/compare/v1.1.0...v1.2.0) (2024-08-19)
 
 
