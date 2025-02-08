@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.2](https://github.com/GersonRS/modern-gitops-stack-module-cp-schema-registry/compare/v1.3.1...v1.3.2) (2025-02-08)
+
+
+### ⌨️ Code Refactoring
+
+* adjust workflows ([3a34a07](https://github.com/GersonRS/modern-gitops-stack-module-cp-schema-registry/commit/3a34a07a3667ba0eaaca83302e1888e6431df600))
+* try adjust code 5 ([8393573](https://github.com/GersonRS/modern-gitops-stack-module-cp-schema-registry/commit/83935737e51148a4f17c7392a82294fe9f4d350e))
+
 ## [1.3.1](https://github.com/GersonRS/modern-gitops-stack-module-cp-schema-registry/compare/v1.3.0...v1.3.1) (2025-02-08)
 
 
