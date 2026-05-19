@@ -1,4 +1,6 @@
 locals {
+  domain = format("schema-registry.%s", trimprefix("${var.subdomain}.${var.base_domain}", "."))
+
   helm_values = [{
     cp-helm-charts = {
       cp-kafka = {
@@ -25,6 +27,15 @@ locals {
       cp-control-center = {
         enabled = false
       }
+    }
+  }]
+
+  helm_values_httproute = [{
+    httproute = {
+      enabled           = true
+      host              = local.domain
+      gateway_name      = var.gateway_name
+      gateway_namespace = var.gateway_namespace
     }
   }]
 }
