@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.4.0](https://github.com/gersonrs/modern-gitops-stack-module-cp-schema-registry/compare/v1.3.2...v1.4.0) (2026-05-20)
+
+
+### 🚀 New Features
+
+* migrate to Istio HTTPRoute ([#12](https://github.com/gersonrs/modern-gitops-stack-module-cp-schema-registry/issues/12)) ([e1accfc](https://github.com/gersonrs/modern-gitops-stack-module-cp-schema-registry/commit/e1accfce5322e9e66314031a91faa8656cb0aec2))
+
+
+### 🔥 Bug Fixes
+
+* update release-please workflow to use PROJECT_APP_PRIVATE_KEY secret ([#11](https://github.com/gersonrs/modern-gitops-stack-module-cp-schema-registry/issues/11)) ([0349f88](https://github.com/gersonrs/modern-gitops-stack-module-cp-schema-registry/commit/0349f88419d6d4c5ada0fa305b7438293969376f))
+
 ## [1.3.2](https://github.com/GersonRS/modern-gitops-stack-module-cp-schema-registry/compare/v1.3.1...v1.3.2) (2025-02-08)
 
 
