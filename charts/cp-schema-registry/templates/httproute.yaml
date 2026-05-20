@@ -14,6 +14,6 @@ spec:
     - {{ $httproute.host | quote }}
   rules:
     - backendRefs:
-        - name: schema-registry-cp-schema-registry
-          port: 8081
+        - name: {{ $httproute.backend_service | default "schema-registry-cp-schema-registry" }}
+          port: {{ $httproute.backend_port | default 8081 }}
 {{- end }}
