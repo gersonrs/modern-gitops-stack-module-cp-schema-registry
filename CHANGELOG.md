@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/gersonrs/modern-gitops-stack-module-cp-schema-registry/compare/v1.5.0...v1.5.1) (2026-05-20)
+
+
+### 🔥 Bug Fixes
+
+* remove merge markers from schema-registry httproute ([0254e73](https://github.com/gersonrs/modern-gitops-stack-module-cp-schema-registry/commit/0254e738877f270a3b036b08f687ec8e791cd215))
+
 ## [1.5.0](https://github.com/gersonrs/modern-gitops-stack-module-cp-schema-registry/compare/v1.4.0...v1.5.0) (2026-05-20)
 
 
