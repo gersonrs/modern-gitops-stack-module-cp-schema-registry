@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.5.0](https://github.com/gersonrs/modern-gitops-stack-module-cp-schema-registry/compare/v1.4.0...v1.5.0) (2026-05-20)
+
+
+### 🚀 New Features
+
+* add oauth2-proxy OIDC protection for Schema Registry HTTPRoute ([cf18352](https://github.com/gersonrs/modern-gitops-stack-module-cp-schema-registry/commit/cf1835234ba3f001a199e55472b2e7fac68d8751))
+* protect Schema Registry with OIDC oauth2-proxy ([d8c4c77](https://github.com/gersonrs/modern-gitops-stack-module-cp-schema-registry/commit/d8c4c77316a1c3cdef8ec2159e366e8e8eabe640))
+
+
+### ⚙️ Chores
+
+* remove local terraform lockfile ([f982818](https://github.com/gersonrs/modern-gitops-stack-module-cp-schema-registry/commit/f982818349227b9afc580da7539d421e239905d5))
+* remove temporary marker file ([1f55791](https://github.com/gersonrs/modern-gitops-stack-module-cp-schema-registry/commit/1f55791c630da1cfa83923925b95477e346fb7f6))
+* remove temporary PR marker ([80ae5f0](https://github.com/gersonrs/modern-gitops-stack-module-cp-schema-registry/commit/80ae5f0a995e91ca3cd1bf372587e40311caa216))
+
 ## [1.4.0](https://github.com/gersonrs/modern-gitops-stack-module-cp-schema-registry/compare/v1.3.2...v1.4.0) (2026-05-20)
 
 
