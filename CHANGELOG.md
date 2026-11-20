@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/gersonrs/modern-gitops-stack-module-cp-schema-registry/compare/v1.6.0...v2.0.0) (2026-11-20)
+
+
+### ⚠ BREAKING CHANGES
+
+* provider major bumps and a stricter Terraform baseline; consumers must run `terraform init -upgrade`.
+
+### 🚀 New Features
+
+* upgrade charts, providers and Terraform baseline ([#19](https://github.com/gersonrs/modern-gitops-stack-module-cp-schema-registry/issues/19)) ([8783b8f](https://github.com/gersonrs/modern-gitops-stack-module-cp-schema-registry/commit/8783b8f927d2d8129e825d25fe2c9e33becd9d73))
+
 ## [1.6.0](https://github.com/gersonrs/modern-gitops-stack-module-cp-schema-registry/compare/v1.5.1...v1.6.0) (2026-07-11)
 
 
