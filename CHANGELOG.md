@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.1](https://github.com/gersonrs/modern-gitops-stack-module-cp-schema-registry/compare/v2.0.0...v2.0.1) (2026-11-21)
+
+
+### 🔥 Bug Fixes
+
+* use kubernetes_secret_v1 data source ([#21](https://github.com/gersonrs/modern-gitops-stack-module-cp-schema-registry/issues/21)) ([47733cd](https://github.com/gersonrs/modern-gitops-stack-module-cp-schema-registry/commit/47733cd2c5496ab72bd2c74cedef98919ccf57da))
+
 ## [2.0.0](https://github.com/gersonrs/modern-gitops-stack-module-cp-schema-registry/compare/v1.6.0...v2.0.0) (2026-11-20)
 
 
