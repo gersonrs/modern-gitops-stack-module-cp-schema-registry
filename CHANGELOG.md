@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.2](https://github.com/gersonrs/modern-gitops-stack-module-cp-schema-registry/compare/v2.0.1...v2.0.2) (2026-11-24)
+
+
+### 📚 Documentation
+
+* add usage and dependencies to the module documentation ([#23](https://github.com/gersonrs/modern-gitops-stack-module-cp-schema-registry/issues/23)) ([6a45b40](https://github.com/gersonrs/modern-gitops-stack-module-cp-schema-registry/commit/6a45b402b18d4a792f3896f16b564144aa272849))
+
 ## [2.0.1](https://github.com/gersonrs/modern-gitops-stack-module-cp-schema-registry/compare/v2.0.0...v2.0.1) (2026-11-21)
 
 
