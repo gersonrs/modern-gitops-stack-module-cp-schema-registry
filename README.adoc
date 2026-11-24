@@ -1,4 +1,54 @@
 = modern-gitops-stack-module-cp-schema-registry
+// Document attributes to replace along the document
+:cp-helm-charts-chart-version: 0.6.1
+:original-repo-url: https://github.com/confluentinc/cp-helm-charts
+
+A https://modern-gitops-stack.io[Modern GitOps Stack] module to deploy Confluent Schema Registry, the Avro/JSON/Protobuf schema store that sits in front of Kafka.
+
+The cp-helm-charts chart used by this module is shipped in this repository as well, in order to avoid any unwanted behaviors caused by unsupported versions.
+
+[cols="1,1,1",options="autowidth,header"]
+|===
+|Current Chart Version |Original Repository |Default Values
+|*0.6.1* |https://github.com/confluentinc/cp-helm-charts/tree/main/charts/cp-schema-registry[cp-helm-charts] |https://artifacthub.io/packages/helm/cp-schema-registry/cp-helm-charts/0.6.1?modal=values[`values.yaml`]
+|===
+
+== Usage
+
+This module can be declared by adding the following block to your Terraform configuration:
+
+[source,terraform]
+----
+module "cp-schema-registry" {
+  source = "git::https://github.com/GersonRS/modern-gitops-stack-module-cp-schema-registry.git?ref=<RELEASE>"
+
+  cluster_name      = local.cluster_name
+  base_domain       = local.base_domain
+  subdomain         = local.subdomain
+  cluster_issuer    = local.cluster_issuer
+  app_autosync      = local.app_autosync
+  kafka_broker_name = "edh-kafka-bootstrap"
+
+  dependency_ids = {
+    strimzi = module.strimzi.id
+    kafka   = module.kafka.id
+  }
+}
+----
+
+The application is deployed to the `ingestion` namespace.
+
+== Technical Reference
+
+=== Dependencies
+
+==== `module.strimzi.id`
+
+Schema Registry connects to the Strimzi-managed Kafka cluster.
+
+==== `module.kafka.id`
+
+The Kafka cluster must exist before Schema Registry starts.
 
 // BEGIN_TF_DOCS
 === Requirements
